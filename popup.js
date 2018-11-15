@@ -122,6 +122,8 @@ const displayStatus = function() { //function to handle the display of time and 
               timeLeft = options.maxTime - (Date.now() - response);
               status.innerHTML = "Tab is currently being captured";
               timeRem.innerHTML = `${parseTime(timeLeft)} remaining`;
+              finishButton.style.display = "block";
+              cancelButton.style.display = "block";
               checkBox.style.display = "none";
               dateInput.style.display = "none";
               timeInput.style.display = "none";
@@ -131,6 +133,8 @@ const displayStatus = function() { //function to handle the display of time and 
               }, 1000);
             } else {
               let capTime = new Date(parseInt(response,10));
+              finishButton.style.display = "none";
+              cancelButton.style.display = "block";
               checkBox.style.display = "none";
               dateInput.style.display = "none";
               timeInput.style.display = "none";
@@ -156,6 +160,8 @@ const displayStatus = function() { //function to handle the display of time and 
                   timeLeft = options.maxTime - (Date.now() - response) - 1000;
                   status.innerHTML = "Tab is currently being captured";
                   timeRem.innerHTML = `${parseTime(timeLeft)} remaining`;
+                  finishButton.style.display = "block";
+                  cancelButton.style.display = "block";
                   checkBox.style.display = "none";
                   dateInput.style.display = "none";
                   timeInput.style.display = "none";
@@ -167,8 +173,6 @@ const displayStatus = function() { //function to handle the display of time and 
               }, 1000);
             }
           });
-          finishButton.style.display = "block";
-          cancelButton.style.display = "block";
         } else {
           startButton.style.display = "block";
           checkBox.style.display = "block";
