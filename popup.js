@@ -367,6 +367,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const options = document.getElementById("options");
   options.onclick = () => {chrome.runtime.openOptionsPage()};
   const git = document.getElementById("GitHub");
-  git.onclick = () => {chrome.tabs.create({url: "https://github.com/arblast/Chrome-Audio-Capturer"})};
+  git.onclick = () => {chrome.tabs.create({url: "https://github.com/chou-o-ning/Chrome-Audio-Capturer-NingMod"})};
 
 });
