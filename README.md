@@ -1,8 +1,17 @@
-# Chrome Audio Capture
+# Chrome Audio Capture NingMod
 
-Chrome Audio Capture is a Chrome extension that allows users to capture any audio playing on the current tab. Multiple tabs can be captured simultaneously. Completed captures will be downloaded to the chrome downloads folder and will be saved as .wav or .mp3 files. Users will have the option to mute tabs that are currently being captured.
+Chrome Audio Capture NingMod is a [Chrome Audio Capture](https://github.com/arblast/Chrome-Audio-Capturer) fork.
 
-Chrome Audio Capture is available in the [Chrome Store](https://chrome.google.com/webstore/detail/chrome-audio-capture/kfokdmfpdnokpmpbjhjbcabgligoelgp)
+Changes compared to the original Chrome Audio Capture:
+1. ability to set a time to capture audio in the future
+2. remove capture time unlimited option(arblast said it's not recommended)
+
+Know issues:
+1. If the chrome tab which captured in the future is not focus, capture will not start.
+
+Following is based on [arblast](https://github.com/arblast/Chrome-Audio-Capturer)'s README:
+
+Chrome Audio Capture NingMod is a Chrome extension that allows users to capture any audio playing on the current tab immediately or to set a time to capture in the future. Multiple tabs can be captured simultaneously. Completed captures will be downloaded to the chrome downloads folder and will be saved as .wav or .mp3 files. Users will have the option to mute tabs that are currently being captured.
 
 Hotkeys for Windows:
  - Ctrl + Shift + S: Start capture on current tab
@@ -23,6 +32,10 @@ Interface during capture
 ![capturing]
 
 [capturing]: ./docs/capturing.png
+
+![capturing1]
+
+[capturing1]: ./docs/capturing1.png
 
 ## Options
 

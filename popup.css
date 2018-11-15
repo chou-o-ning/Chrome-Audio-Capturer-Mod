@@ -82,7 +82,17 @@ li {
   background-color: darkred;
 }
 
+input {
+  margin: 10px 3px 3px 3px;
+}
+
+.captime {
+  display: flex;
+  float:left;
+}
+
 .notes {
+  clear:left;
   padding: 10px;
   font-size: 12px;
   white-space: pre;
