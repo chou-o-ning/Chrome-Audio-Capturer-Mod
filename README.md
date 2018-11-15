@@ -2,12 +2,12 @@
 
 Chrome Audio Capture NingMod is a [Chrome Audio Capture](https://github.com/arblast/Chrome-Audio-Capturer) fork.
 
-Changes compared to the original Chrome Audio Capture:
-1. ability to set a time to capture audio in the future
+**Changes compared to the original Chrome Audio Capture:**
+**1. NEW FEATURE: ability to set a time to capture audio in the future**
 2. remove capture time unlimited option(arblast said it's not recommended)
 
-Know issues:
-1. If the chrome tab which captured in the future is not focus, capture will not start.
+**KNOWN ISSUES:**
+1. **If the chrome tab which captured in the future is not focus, capture will not start.**
 
 Following is based on [arblast](https://github.com/arblast/Chrome-Audio-Capturer)'s README:
 
