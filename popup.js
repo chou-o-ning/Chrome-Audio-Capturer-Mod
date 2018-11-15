@@ -264,7 +264,7 @@ chrome.runtime.onMessage.addListener((request, sender) => {
               clearInterval(interval);
               timeLeft = maxTime - 1000;
               timeRem.innerHTML = `${parseTime(timeLeft)} remaining`;
-              finishButton.style.display = "block";
+              finishButton.style.display = "none";
               cancelButton.style.display = "block";
               startButton.style.display = "none";
               checkBox.style.display = "none";
